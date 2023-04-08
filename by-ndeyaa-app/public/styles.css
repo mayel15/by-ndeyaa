@@ -1,0 +1,98 @@
+/*section{
+    margin: 0 15%;
+}*/
+
+/*#welcome {
+    background-image: url('images/welcome.jpeg');
+    height: 50rem;
+    width : 100%;
+}*/
+
+/*@media (max-width: 480px) */
+
+body {
+    background-color: #ABC4AA;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.common-section {
+    margin: 7% 15%;
+}
+/*nav{
+    margin: 0 50%;
+}*/
+
+/* Welcome page */
+nav a{
+    margin: 0 2rem;
+}
+
+.img-welcome{
+    height: 50rem;
+    width: 100%;
+}
+
+
+.word-welcome{
+    position: absolute;
+    background-color: #ABC4AA;
+    margin-left: 40%;
+    margin-top: -35rem;
+    padding: 5%;
+}
+
+
+/* Tabs sections */
+
+.img-illustration{
+    height: 10rem;
+    width: 10rem;
+}
+
+.title-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*margin: 7% 0;*/
+    margin-bottom: 7%;
+}
+
+
+.button-wrap {
+    position: relative;
+    /*width: 40%;*/
+    width: 7.70rem;
+    height: 2.063rem;
+    display: flex;
+    background-color: #A9907E;
+    justify-content: center;
+    border-radius: 50px;
+    margin-left: 3.5rem;
+}
+
+.button-wrap .text-button{
+    margin-top: 3px;
+}
+
+.tab-card{
+    padding: 0;
+    margin: 1rem;
+    height: 20.688rem;
+    width: 18.875rem;
+    background-color: #F3DEBA;
+}
+.tab-card img{
+    height: 13.938rem;
+    width: 100%;
+}
+
+.card-info{
+    margin: 5%;
+}
+.tab-card .card-info div{
+   display: flex;
+}
+
+/* Testimonial */
