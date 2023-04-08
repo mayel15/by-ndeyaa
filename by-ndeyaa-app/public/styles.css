@@ -18,7 +18,7 @@ a{
     color: black;
 }
 .common-section {
-    margin: 7% 15%;
+    padding: 7% 15%;
 }
 /*nav{
     margin: 0 50%;
@@ -96,3 +96,7 @@ nav a{
 }
 
 /* Testimonial */
+
+#testimonials{
+    background-color: #675D50;
+}

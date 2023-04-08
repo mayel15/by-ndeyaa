@@ -1,8 +1,10 @@
 import React from "react";
-export default function(){
+export default function(props){
     return (
-        <div>
-            
+        <div className="testi-card">
+            <img src={props.img}  alt="img-user"/>
+            <img src="images/icons/la-communication.png" alt="la-communication"/>
+            <p>{props.text}</p>
         </div>
     )
 }
