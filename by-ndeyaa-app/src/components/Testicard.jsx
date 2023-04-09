@@ -2,8 +2,8 @@ import React from "react";
 export default function(props){
     return (
         <div className="testi-card">
-            <img src={props.img}  alt="img-user"/>
-            <img src="images/icons/la-communication.png" alt="la-communication"/>
+            <img className="img-user" style={{height: "8rem", width: "8rem", borderRadius: "30%"}}src={props.img}  alt="img-user"/>
+            <img className="img-com" style={{height: "8rem", width: "8rem"}} src="images/icons/la-communication.png" alt="la-communication"/>
             <p>{props.text}</p>
         </div>
     )

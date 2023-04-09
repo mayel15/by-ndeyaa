@@ -49,10 +49,12 @@ nav a{
 .img-illustration{
     height: 10rem;
     width: 10rem;
+    justify-self: center;
+    margin: 13%;
 }
 
 .title-section{
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     /*margin: 7% 0;*/
@@ -100,3 +102,37 @@ nav a{
 #testimonials{
     background-color: #675D50;
 }
+
+.testi-card{
+    display: grid;
+    justify-content: center;
+    margin: -8% 0;
+    /*background-color: white;*/
+    margin-bottom: 5%;
+}
+
+.testi-card p{
+    background-color: #F3DEBA;
+    padding: 7rem 5rem 5rem 5rem;
+    height: 17rem;
+    width: 25rem;
+    border-radius: 1.25rem; 
+}
+
+.img-user{
+    position: relative;
+    z-index: 1;
+    bottom: -12rem;
+    justify-self: center;
+}
+
+.img-com{
+    position: relative;
+    justify-self: right;
+    z-index: 1;
+    bottom: -2rem;
+    left: 4rem;
+}
+
+
+
