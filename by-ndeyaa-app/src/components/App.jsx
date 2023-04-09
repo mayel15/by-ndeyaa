@@ -5,6 +5,8 @@ import Tab from "./Tab"
 import Testimonial from "./Testimonial";
 import Letcommand from "./Letcommand"
 import Aboutus from "./Aboutus";
+import Contact from "./Contact";
+import Footer from "./Footer";
 export default function App(){
     return (
         <div>
@@ -14,6 +16,8 @@ export default function App(){
             <Testimonial />
             <Letcommand />
             <Aboutus />
+            <Contact />
+            <Footer />
         </div>
     );
 } 

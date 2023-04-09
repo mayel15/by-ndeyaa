@@ -5,7 +5,7 @@ export default function Aboutus() {
     return (
         <section id="about-us" className="common-section">
             <div className="title-section">
-                <h1>Let's go commander !</h1>
+                <h1>Qui sommes nous ?</h1>
                 <img className="img-illustration" src="images/icons/group.png" alt="img-icon" />
             </div>
             <div className="paragraphs">

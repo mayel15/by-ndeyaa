@@ -1,7 +1,7 @@
 import React from "react";
 export default function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <nav id="navbar" className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid nav-container">
                 <a className="navbar-brand" href="#Accueil">
                     By-Ndeyaa
@@ -11,10 +11,10 @@ export default function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <a className="nav-link" href="#welcome">Accueil</a>
+                        <a className="nav-link" href="#navbar">Accueil</a>
                         <a className="nav-link" href="#tabs">Nos tableaux</a>
                         <a className="nav-link" href="#about-us">A propos</a>
-                        <a className="nav-link" href="#contact">Nous contacter</a>
+                        <a className="nav-link" href="#contact-us">Nous contacter</a>
                     </div>
                 </div>
             </div>
