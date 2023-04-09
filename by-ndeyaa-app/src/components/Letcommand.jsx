@@ -7,7 +7,7 @@ export default function Letcommand() {
                 <h1>Let's go commander !</h1>
                 <img className="img-illustration" src="images/icons/bon-de-commande.png" alt="img-icon" />
             </div>
-            <div className="command-form" style={{ margin: "0 10%" }}>
+            <div className="command-form" style={{ margin: "0 10%", display:"grid", justifyContent: "" }}>
                 <div class="form-floating mb-3">
                     <input type="text" class="form-control" id="floatingInput" placeholder="Sene" />
                     <label for="floatingInput">Nom</label>
@@ -34,7 +34,9 @@ export default function Letcommand() {
                         return (<option value={t.key}>{t.title}</option>)
                     })}
                 </select>
-                <button type="button" class="btn btn-outline-success"> Commander</button>
+                <button type="button" class="btn btn-outline-success" style={{
+                    margin: "4% 43%"
+                }}> Commander </button>
             </div>
         </section>
     )
