@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Welcome from "./Welcome";
 import Tab from "./Tab"
 import Testimonial from "./Testimonial";
+import Letcommand from "./Letcommand"
 export default function App(){
     return (
         <div>
@@ -10,6 +11,7 @@ export default function App(){
             <Welcome />
             <Tab />
             <Testimonial />
+            <Letcommand />
         </div>
     );
 } 
