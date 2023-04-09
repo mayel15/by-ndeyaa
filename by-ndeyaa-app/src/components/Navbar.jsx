@@ -12,7 +12,7 @@ export default function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
                         <a className="nav-link" href="#welcome">Accueil</a>
-                        <a className="nav-link" href="#services">Nos tableaux</a>
+                        <a className="nav-link" href="#tabs">Nos tableaux</a>
                         <a className="nav-link" href="#about-us">A propos</a>
                         <a className="nav-link" href="#contact">Nous contacter</a>
                     </div>

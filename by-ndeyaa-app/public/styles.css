@@ -136,7 +136,18 @@ nav a{
 
 /* Let command-section */
 
-/*.command-form input, .command-form select{
-    background-color: #675D50; 
-}*/
+/**/.command-form input, .command-form select{
+    background-color: #F3DEBA; 
+}
 
+/* About us section*/
+.p1, .p2 {
+    background-color: #ABC4AA;
+    padding: 5%;
+    height: 18rem;
+    width: 50%/*34rem;*/;
+}
+
+.p2{
+    margin-left: 50%;
+}
