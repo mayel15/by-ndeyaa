@@ -8,7 +8,7 @@ const tabs = [
     {
         key: 2,
         img: "images/tabs/img2.jpeg",
-        title: "Tableau 1",
+        title: "Tableau 2",
         price: "13000 FCFA"
     },
     {
