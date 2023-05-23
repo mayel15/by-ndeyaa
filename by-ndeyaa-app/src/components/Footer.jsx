@@ -21,7 +21,7 @@ export default function Footer() {
                 <h4>Nous contacter</h4>
                 <p>{textMessage}</p>
                 <div><i class="fa-solid fa-envelope"></i><a href="#contact-us"> Nous contacter</a></div>
-                <p style={{marginTop: "1.25rem"}}>© {year} by-ndyaa | Tous droits réservés </p>
+                <p style={{marginTop: "1.25rem"}}>© {year} by-ndeyaa | Tous droits réservés </p>
                 </div>
             </div>
         </section>

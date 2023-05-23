@@ -9,6 +9,10 @@ a{
 .common-section {
     padding: 7% 15%;
 }
+
+.common-section a:hover{
+    color: #F3DEBA;
+}
 /*nav{
     margin: 0 50%;
 }*/
@@ -125,9 +129,9 @@ nav a{
 
 /* Let command-section */
 
-/**/.command-form input, .command-form select{
+/*.command-form input, .command-form select{
     background-color: #F3DEBA; 
-}
+}*/
 
 /* About us section*/
 .p1, .p2 {

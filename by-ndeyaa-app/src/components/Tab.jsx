@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import tabs from "./tabs";
+import tabs from "../tabs";
 
 export default function Tab(){
    // const [tabs, setNotes] = useState([]);
@@ -10,7 +10,7 @@ export default function Tab(){
                 <h1>Nos tableaux</h1>
                 <img className="img-illustration" src="images/icons/art.png" alt="img-icon"/>
             </div>
-            <div className="row ">
+            <div className="row">
             {tabs.map((n, index) => {
             return (
                 <Card 
