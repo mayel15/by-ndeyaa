@@ -2,7 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Link of the 1st version : [by-ndeyaa](https://mayel15.github.io/by-ndeyaa/)
 ## Available Scripts
 
 In the project directory, you can run:
