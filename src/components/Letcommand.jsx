@@ -23,7 +23,7 @@ export default function Letcommand() {
         event.preventDefault();
     
         // Envoyer les données du formulaire via une méthode POST
-        fetch('https://by-ndeyaa-back.vercel.app/commander', {
+        fetch('https://by-ndeyaa-back.vercel.app/api/commander', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
