@@ -16,7 +16,7 @@ export default function Footer() {
                     <h4>Nos reseaux sociaux</h4>
                     <div><i class="fa-brands fa-instagram"></i><a href="#welcome"> by-ndeyaa</a></div>
                     <div><i class="fa-brands fa-facebook"></i><a href="#welcome"> by-ndeyaa</a></div>
-                    <a href="#navbar" ><img src="images/tabs/brand.jpeg" alt="img-brand"   style={{height: "5rem", width: "5rem", marginTop: "5%"}}/></a>
+                    <a className="navbar-brand" href="#Accueil">By-Ndeyaa</a> 
                 </div>
                 <div className="col-lg-4">
                 <h4>Nous contacter</h4>
