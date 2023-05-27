@@ -35,7 +35,7 @@ export default function Letcommand() {
           .then(data => {
             console.log(data.message);
             if(data.message==="mail sent successfully"){
-              alert('Votre commande a été bien envoyé.\nNous vous recontacterons pour discuter des modelités de livraison. :)')
+              alert('Votre commande a été bien envoyé.\nNous vous recontacterons pour discuter des modalités de livraison. :)')
               setFormData({
                 lastName: '',
                 firstName: '',
@@ -46,7 +46,7 @@ export default function Letcommand() {
               })
               console.log('Mail envoyé avec succes');
             }else{
-              alert('Un des champs du formualaire est vide. : (\nVeuillez le remplir correctement, merci ! : )')
+              alert('Un des champs du formulaire est vide. : (\nVeuillez le remplir correctement, merci ! : )')
               console.log("error : champs du formulaire vide :(")
             }
           })
