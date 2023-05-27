@@ -1,8 +1,8 @@
 import React from "react";
 import './styles.css';
 export default function Aboutus() {
-    var text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
+    var text1 = "Chez By_Ndeyaa, nous adorons faire des trouvailles uniques et magnifiques. Nous mettons tout en œuvre pour vous proposer des tableaux avec le meilleur rapport qualité prix, de sorte que vous puissiez toujours trouver votre bonheur. By_Ndeyaa, la référence pour les articles d'intérieur. "
+    var text2 = "Notre petite entreprise est le paradis de la décoration et des accessoires d'intérieur. Nos clients savent qu'ils peuvent compter sur nous pour leur proposer des tableaux inattendus, décalés avec une touche de personnalité afin d'ajouter du piquant à votre maison. Parcourez notre site et découvrez tout ce que nous avons à offrir."
     return (
         <section id="about-us" className="common-section">
             <div className="title-section">
@@ -11,10 +11,10 @@ export default function Aboutus() {
             </div>
             <div className="paragraphs">
                 <div className="p1">
-                    {text}                
+                    {text1}                
                 </div>
                 <div className="p2">
-                    {text}
+                    {text2}
                 </div>
             </div>
         </section>
