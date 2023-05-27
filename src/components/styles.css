@@ -15,7 +15,7 @@ h2 {
 
 p, a, .navbar-nav a{
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1.125rem;   
+    font-size: 1.5rem;   
 }
 
 h4 {
@@ -85,25 +85,23 @@ nav a{
 
 .button-wrap {
     position: relative;
-    /*width: 40%;*/
-    width: 7.70rem;
-    height: 2.063rem;
+    margin-left: 3.25rem;
+    border-radius: 30px;
     display: flex;
-    background-color: #A9907E;
     justify-content: center;
-    border-radius: 50px;
-    margin-left: 3.5rem;
+    background-color: #A9907E;  
 }
 
 .button-wrap .text-button{
-    margin-top: 3px;
+    margin: 5px 20px;
+    
 }
 
 .tab-card{
     padding: 0;
     margin: 1rem;
-    height: 20.688rem;
-    width: 18.875rem;
+    height: 24rem;
+    width: 23rem;
     background-color: #F3DEBA;
     box-shadow: 5px 5px 5px grey;
 }
@@ -145,6 +143,7 @@ nav a{
     /*height: 17rem;*/
     width: 25rem;
     border-radius: 1.25rem; 
+    text-align:left;
 }
 
 .img-user{
