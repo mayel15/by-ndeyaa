@@ -1,4 +1,5 @@
 import React from "react";
+import './styles.css';
 export default function Testicard(props){
     return (
         <div className="testi-card">

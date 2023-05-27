@@ -1,4 +1,5 @@
 import React from "react";
+import './styles.css';
 import testimonials from "./testimonials"
 import Testicard from "./Testicard";
 export default function Testimonial(){

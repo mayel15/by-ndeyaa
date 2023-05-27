@@ -1,4 +1,5 @@
 import React from "react";
+import './styles.css';
 export default function Navbar() {
     return (
         <nav id="navbar" className="navbar navbar-expand-lg bg-body-tertiary">

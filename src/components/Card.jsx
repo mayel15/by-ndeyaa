@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import './styles.css';
 export default function Card(props) {
     return (
         <div className="tab-card col-lg-6 col-md-2">

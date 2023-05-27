@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import tabs from "../tabs";
+import './styles.css';
 
 export default function Tab(){
    // const [tabs, setNotes] = useState([]);

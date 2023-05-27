@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import tabs from "../tabs";
+import './styles.css';
 
 export default function Letcommand() {
     const [formData, setFormData] = useState({

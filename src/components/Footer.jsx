@@ -1,4 +1,5 @@
 import React from "react";
+import './styles.css';
 export default function Footer() {
     var textMessage = "Si vous avez des questions, une signalisation ou quelque chose d’autre  "
     var date = new Date();
