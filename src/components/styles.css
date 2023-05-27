@@ -2,12 +2,41 @@
 body {
     background-color: #ABC4AA;
 }
+
+h1{
+    font-family:'Noto Serif';
+    font-size: 50px;
+    font-weight: bold;
+}
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+}
+
+p, a, .navbar-nav a{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
 a{
     text-decoration: none;
     color: black;
 }
 .common-section {
     padding: 7% 15%;
+}
+
+.navbar-brand{
+    font-family: 'Calligraffitti', cursive;
+    font-size: 25px;
+    font-weight: bolder;
 }
 
 .common-section a:hover{
@@ -73,11 +102,17 @@ nav a{
 
 .tab-card{
     padding: 0;
-    margin: 1rem;
+    margin: 2.5rem;
     height: 20.688rem;
     width: 18.875rem;
     background-color: #F3DEBA;
+    box-shadow: 5px 5px 5px grey;
 }
+
+.row {
+    justify-content: center;
+}
+
 .tab-card img{
     height: 13.938rem;
     width: 100%;
@@ -102,12 +137,13 @@ nav a{
     margin: -8% 0;
     /*background-color: white;*/
     margin-bottom: 5%;
+    /*padding: auto;*/
 }
 
 .testi-card p{
     background-color: #F3DEBA;
     padding: 7rem 5rem 5rem 5rem;
-    height: 17rem;
+    /*height: 17rem;*/
     width: 25rem;
     border-radius: 1.25rem; 
 }
@@ -156,3 +192,23 @@ nav a{
     margin: auto;
 }
 
+/* responsive */
+@media screen and (max-width: 980px){
+    .common-section {
+        padding: 7% 5%;
+    };
+
+    .p1, .p2 {
+        background-color: #ABC4AA;
+        padding: 5%;
+        width: 50%/*34rem;*/;
+    }
+    
+    .p2{
+        margin-left: 50%;
+    }
+
+    h4{
+        margin-top: 30px;
+    }
+}

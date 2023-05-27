@@ -11,10 +11,10 @@ export default function Aboutus() {
             </div>
             <div className="paragraphs">
                 <div className="p1">
-                    {text1}                
+                    <p>{text1}</p>                
                 </div>
                 <div className="p2">
-                    {text2}
+                    <p>{text2}</p>
                 </div>
             </div>
         </section>
