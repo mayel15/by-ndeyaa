@@ -99,7 +99,7 @@ export default function Letcommand() {
                     backgroundColor: "#A9907E"                 
                 }}
                 
-                > Commander </button>
+                > <p>Commander</p></button>
             </form>
         </section>
     )
